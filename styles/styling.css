@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center ;
+}
+h1{
+    color: aliceblue;
+}
+a{
+    color: rgb(15, 78, 133);
+}
+p{
+    color: aliceblue;
+}
+table{
+    color: aliceblue;
+}
+form{
+    color: aliceblue;
+}
+#aBox{
+        position:absolute;
+        color: aliceblue;
+        background-color:rgba(26, 26, 26, 0.5);
+        width: 2000px;
+        height: 75px;  
+}
+#grid-container{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns:auto auto auto;
+    /* row-gap: 15px; */
+    /* column-gap: 15px; */
+    gap: 10px 20px;
+    align-content:  space-around;
+}
+#grid-container >div{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    }
+    #item4{
+        grid-row-start: 1;
+        grid-column-start: 4;
+        grid-row-end: 2;
+        grid-column-end: 5;
+    }
+    #flex-container{
+        display: flex;
+        background-color: black;
+        flex-direction: column-reverse;
+    }
+    #flex-container> div{
+        background-color: beige;
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+    }
